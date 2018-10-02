@@ -23,7 +23,17 @@ All students take part in these extracurricular activities. They can see, feel a
 
 We offer various internship opportunities for international students at world-renowned Japanese companies, NPOs/NGOs, local governments, and so on. Our program offers full support for internships from start to finish. Explore your career interests and gain valuable experiences off-campus by working in a different culture.
 
-
+<h2 id="contact">Contact</h2>
+<ul>
+  <li>Academic Affairs Division</li>
+  <li>Sagamihara Campus Administration Department, Aoyama Gakuin University</li>
+  <li>Address: 5-10-1 Fuchinobe, Chuo-ku, Sagamihara, Kanagawa 252-5258, Japan</li>
+  <li>E-mail: info@gsc.aoyama.ac.jp</li>
+  <li>Fax: +81-42-759-6035</li>
+  <li>GSC Website-&gt; <a href="http://www.gsc.aoyama.ac.jp/international/">www.gsc.aoyama.ac.jp/international/</a></li>
+  <li>AGU Website -&gt; <a href="http://www.aoyama.ac.jp/en/" target="_blank" class="pop">www.aoyama.ac.jp/en/</a></li>
+</ul>
+<!--
 ## Contact
 * Academic Affairs Division
 * Sagamihara Campus Administration Department, Aoyama Gakuin University
@@ -32,7 +42,7 @@ We offer various internship opportunities for international students at world-re
 * Fax: +81-42-759-6035
 * GSC Website-> [www.gsc.aoyama.ac.jp/international/](http://www.gsc.aoyama.ac.jp/international/)
 * AGU Website -> [www.aoyama.ac.jp/en/](http://www.aoyama.ac.jp/en/)
-
+-->
 
 
 

@@ -3,3 +3,421 @@
 ---
 
 @import "minima";
+
+/*----- J-LINK ADD START -----*/
+/*----- COMMON -----*/
+@media screen and (max-width: 120em) {
+  #header .row {
+    margin-top: -30px !important; }
+
+  #header .h-logo {
+    margin-left: 0 !important;
+    width: 460px !important; }
+
+  #header .row nav ul.header_left {
+    float: left !important; }
+
+  #header .row nav ul.header_left li {
+    float: left !important; }
+
+  #header .row nav ul.header_left li:hover {
+    border-bottom: solid 4px #F7ACC2;
+    background-color: #F2F2F2; }
+
+  #header .row .columns nav ul.header_right {
+    margin-top: 23px !important;
+    margin-right: -70px !important;
+    width: 420px !important; }
+
+  #header .row .columns nav ul.header_right li {
+    margin-right: -20px !important;
+    margin-top: 20px !important;
+    padding: 0 !important;
+    list-style: none !important;
+    float: left !important;
+    height: 10px !important;
+    position: relative !important; }
+
+  #header .row .columns nav ul.header_right li.hr1 {
+    width: 220px !important; }
+
+  #header .row .columns nav ul.header_right li.hr2 {
+    width: 150px !important; }
+
+  #header .row .columns nav ul.header_right li a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 75% !important; }
+
+  #header .row .columns nav ul.header_right a i {
+    font-size: 165% !important; }
+
+  #header .row .columns nav ul.header_right li a:hover {
+    color: #F17599; }
+
+  #footer {
+    background-color: #888888 !important;
+    height: 205px !important; }
+
+  #footer .earth {
+    display: none !important; }
+
+  #footer .row .columns p, #footer .row .columns a {
+    color: #FFF !important; }
+
+  #footer .row .columns ul.icon {
+    text-align: center !important;
+    width: 100% !important;
+    margin: -10px 0 -25px 0 !important; }
+
+  #footer .row .columns ul.icon li {
+    display: inline !important; }
+
+  #footer .row .columns ul.icon li i {
+    font-size: 40px !important;
+    color: #FFFFFF; }
+
+  #footer .row .columns ul.icon li i:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)"; }
+
+  #footer .row .columns ul a:hover {
+    text-decoration: underline; }
+
+  #footer .ftr_cp {
+    border-top: solid 1px #A0A0A0 !important;
+    box-shadow: 0px -1px 0px #6D6D6D;
+    text-align: center !important;
+    padding-top: 9px !important;
+    font-size: 90% !important;
+    color: #FFF !important;
+    width: 100vw !important; }
+
+  #footer .ftr_cp a {
+    color: #FFF !important; } }
+@media screen and (max-width: 64em) {
+  #header .row {
+    margin-top: 0 !important; }
+
+  #header .row nav {
+    position: relative !important; }
+
+  #header .row nav ul.header_right {
+    position: absolute !important;
+    right: 8px !important;
+    top: -60px !important; }
+
+  #footer {
+    height: 300px !important; } }
+@media screen and (max-width: 57em) {
+  #header .row nav {
+    position: static !important; }
+
+  #header .row nav ul.header_right {
+    position: static !important; } }
+@media screen and (max-width: 51em) {
+  #header .h-logo {
+    margin: 0 auto !important;
+    width: 70vw !important; }
+
+  #footer {
+    height: 350px !important; } }
+/*----- TOPPAGE -----*/
+@media screen and (max-width: 120em) {
+  /*----- FONT -----*/
+  h2, p.description, ul.list-news li a, ul.list-news li a span, ul.list-news li a p {
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ',  Meiryo, arial, helvetica, clean, 'ＭＳ Ｐゴシック', sans-serif !important; }
+
+  .row .columns .topic .text p.tagline {
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    font-size: 1rem !important;
+    color: #F17599; }
+
+  .topic .text a h2 {
+    line-height: 1.6em;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ',  Meiryo, arial, helvetica, clean, 'ＭＳ Ｐゴシック', sans-serif !important;
+    font-weight: normal;
+    font-size: 1.75625rem;
+    margin-bottom: 0.5795525rem;
+    padding-top: 0.4204475rem;
+    color: #4A4A4A; }
+
+  .topic .text a p.description {
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ',  Meiryo, arial, helvetica, clean, 'ＭＳ Ｐゴシック', sans-serif !important; }
+
+  .topic .image {
+    border-top: solid 4px #F17599; }
+
+  .topic .image a {
+    width: 100% !important; }
+
+  .topic .text a h2:before {
+    content: " ";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+    background-image: url(./images/link_arrow.png);
+    background-position: right 1.5px;
+    background-size: contain;
+    vertical-align: 0px; }
+
+  ul.list-pannel li a:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)"; }
+
+  .s-cover {
+    margin-bottom: 2em; }
+
+  .s-cover .content-section .row {
+    margin-bottom: 1em; }
+
+  .s-cover .content-section .row .columns {
+    margin-top: -70px !important;
+    margin-left: 47px !important; }
+
+  .s-cover .content-section .catch {
+    text-align: center !important; }
+
+  .s-cover .content-section .catch p {
+    font-size: 16px !important;
+    color: #FFF !important;
+    text-shadow: 2px  2px 3px #4d4d4d, -2px  2px 3px #4d4d4d, 2px -2px 3px #4d4d4d, -2px -2px 3px #4d4d4d;
+    width: 100% !important;
+    line-height: 1.5em !important; }
+
+  .s-lead .content-section .row .columns p a:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)"; }
+
+  /*
+  .row .columns .topic a .image img {
+    margin-left: 20px !important;
+    width: 100% !important;
+  }
+  */
+  .row .columns .topic a .text {
+    margin-left: -33px !important;
+    width: 110% !important; }
+
+  .row .columns .topic a:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)"; }
+
+  ul.list-pannel li a .text p strong {
+    line-height: 10px !important; }
+
+  ul.list-news li {
+    margin-top: -20px !important; }
+
+  #aside ul.list-news li a p:hover {
+    text-decoration: underline;
+    text-decoration-color: #4A4A4A; }
+
+  #aside ul.list-news li a span.date {
+    display: inline !important;
+    margin-left: -5px !important; }
+
+  #aside ul.list-news li a p {
+    margin-top: -10px !important;
+    line-height: 1.5em !important; }
+
+  .facebook, ul.icon {
+    margin-left: 10px !important;
+    }
+
+  .s-footer ul.icon {
+    line-height: 70px !important;
+    vertical-align: middle !important;
+    }
+
+  ul.share {
+    margin-left: 10px !important; }
+
+  ul.share li i:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha(opacity=70)"; }
+
+  ul.share li i.-facebook {
+    /*display: none !important;*/ }
+
+  ul.share li i.-twitter {
+    /*display: none !important;*/ }
+
+  ul.share li i.-facebook {
+    color: #4267B2; } }
+@media screen and (max-width: 51em) {
+  .s-cover .content-section .row .columns {
+    margin-left: 0 !important; }
+
+  .s-cover .content-section .row .columns {
+    position: relative !important;
+  }
+  .s-cover .content-section .row .columns p {
+    position: absolute !important;
+    left: 10vw !important;
+  }
+
+}
+@media screen and (max-width: 40em) {
+  html {
+    width:100%;
+    position: relative;
+    overflow: hidden;
+  }
+  body {
+    position: absolute;
+    min-width: !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+  }
+
+  .s-cover .content-section .catch {
+    text-align: left !important;
+    margin-left: 30px !important;
+    margin-right: 30px !important; }
+
+  .s-cover .content-section .catch p br {
+    display: none; }
+
+  .s-lead .content-section .columns {
+    background-color: #FFF !important; }
+
+  .m-hamburger_content {
+    z-index: -1 !important; }
+
+  html.is-active_hamburger .m-hamburger_content {
+    z-index: 1 !important; }
+
+  .is-active_hamburger #footer {
+    transition: all 0.4s ease;
+    transform: translate(240px, 0);
+    overflow: hidden; }
+
+  #footer {
+    transition: all 0.4s ease; }
+
+  .s-lead {
+    margin-bottom: -126.9px !important;
+  }
+}
+
+/*----- CONTENTS(第2階層以下全般) -----*/
+/*----- FONT -----*/
+#main .row .columns #content .content-header .row .columns p.lead {
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ',  Meiryo, arial, helvetica, clean, 'ＭＳ Ｐゴシック', sans-serif !important;
+  font-size: 125% !important;
+  margin-bottom: -30px !important;
+  color: #419178 !important; }
+
+#main .row .columns #content .content-section .row .columns p,
+#main table tbody tr th,
+#main table tbody tr td {
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ',  Meiryo, arial, helvetica, clean, 'ＭＳ Ｐゴシック', sans-serif !important; }
+
+#main .row .columns ul li a:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)"; }
+
+/*----- TABLE -----*/
+#main table tbody tr th {
+  border-bottom: solid 1px #DDDDDD !important; }
+
+#main table tbody tr td {
+  border-bottom: solid 1px #DDDDDD !important; }
+
+/*----- SIDEMENU -----*/
+#aside .list-menu li:nth-child(1) {
+  background-color: #F9FCFB !important; }
+
+#aside .list-menu li:nth-child(1) a:before {
+  background-image: none !important;
+  margin-left: -1em !important; }
+
+#aside .list-menu li:nth-child(n+2) a {
+  margin-left: 1em !important; }
+
+#aside .list-menu li a:hover {
+  text-decoration: underline !important; }
+
+#aside .career .list-menu li:nth-child(2n) {
+  display: none !important; }
+
+#aside .introduction li.campus,
+#aside .teacher li.campus,
+#aside .studyabroad li.campus,
+#aside .career li.campus,
+#aside .exam li.campus,
+#aside .portal4fs li.campus,
+#aside .general li.campus {
+  display: none !important;
+}
+
+
+/*----- CONTENTS(第2階層のみ) -----*/
+/*----- LIST-LINKS -----*/
+#main .content-section .row .columns ul.list-links li a:hover {
+  text-decoration: underline !important; }
+
+/*----- INTRODUCTION -----*/
+#main .row .columns #content .content-section .row .columns p a:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "alpha(opacity=70)";
+}
+
+#main .row .columns #content .content-section .row .columns p a[class="pop"]:after {
+  content: url("./images/icon_popup.gif");
+  position: relative;
+  bottom: -0.1em;
+  margin-left: 0.5em;
+}
+
+#content .content-section .row .columns p a[class="pop"]:after {
+  content: url("./images/icon_popup.gif");
+  position: relative;
+  bottom: -0.1em;
+  margin-left: 0.5em;
+}
+
+#content .content-section .row .columns ul li a[class="pop"]:after {
+  content: url("./images/icon_popup.gif");
+  position: relative;
+  bottom: -0.1em;
+  margin-left: 0.5em;
+}
+
+#content .content-section .row .columns p {
+  word-wrap: break-word;
+  width: 100%; }
+
+
+
+/*----- CAMPUS -----*/
+#content .content-header h1 {
+  line-height: 1.5em !important;
+}
+
+.content-section .row .columns ul li a[class="pdf"]:after {
+  content: url("./images/icon_pdf.gif");
+  position: relative;
+  bottom: -0.1em;
+  margin-left: 0.5em;
+}
+
+#content .content-section .row .columns ul li a[class="pdf"]:after {
+  content: url("./images/icon_pdf.gif");
+  position: relative;
+  bottom: -0.1em;
+  margin-left: 0.5em;
+}
+

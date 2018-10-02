@@ -7,34 +7,34 @@
           <div></div><div></div><div></div>
         </a>
         <nav class="m-hamburger_content" js-hamburger_content>
-          <ul class="">
-            {% assign current = '' %}
-            {% if page.layout == 'home' %}
-            {% assign current = 'current' %}
-            {% endif %}
-            <li class="{{current}}"><a href="{{ '/' | relative_url }}">Home</a></li>
-            {% assign default_paths = site.pages | map: "path" %}
-            {% assign page_paths = site.header_pages | default: default_paths %}
-            {% if page_paths %}
-            {% for path in page_paths %}
-              {% assign my_page = site.pages | where: "path", path | first %}
+          <div class="gmenu">
+            <ul class="header_left">
               {% assign current = '' %}
-              {% if page.category == my_page.category %}
+              {% if page.layout == 'home' %}
               {% assign current = 'current' %}
               {% endif %}
-              {% if my_page.title %}
-                <li class="{{my_page.title}} {{current}}"><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+              <li class="{{current}}"><a href="{{ '/' | relative_url }}">Home</a></li>
+              {% assign default_paths = site.pages | map: "path" %}
+              {% assign page_paths = site.header_pages | default: default_paths %}
+              {% if page_paths %}
+              {% for path in page_paths %}
+                {% assign my_page = site.pages | where: "path", path | first %}
+                {% assign current = '' %}
+                {% if page.category == my_page.category %}
+                {% assign current = 'current' %}
+                {% endif %}
+                {% if my_page.title %}
+                  <li class="{{my_page.title}} {{current}}"><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+                {% endif %}
+              {% endfor %}
               {% endif %}
-            {% endfor %}
-            {% endif %}
-            <li class="{{ page.id }}"><a href="https://gsc-aoyama.github.io/www4gsc/"><i class="icon -international"></i>日本語サイトへ</a></li>
+              <!--<li class="{{ page.id }}"><a href="https://gsc-aoyama.github.io/www4gsc/"><i class="icon -international"></i>日本語サイトへ</a></li>-->
+            </ul>
+          </div>
+          <ul class="header_right">
+            <li class="hr1"><a href="http://www.aoyama.ac.jp/en/" target="_blank"><i class="icon -aoyama"></i>Aoyama Gakuin University</a></li>
+            <li class="hr2"><a href="https://gsc-aoyama.github.io/www4gsc/"><i class="icon -international 日本語サイトへ"></i>日本語サイトへ</a></li>
           </ul>
-          <!--ul class="">
-            <li><a href="http://www.aoyama.ac.jp/outline/reference.html" target="_blank"><i class="icon -reference"></i>Document request
-</a></li>
-            <li><a href="{{ '/exam/' | relative_url }}"><i class="icon -exam"></i>Entrance exam. info.</a></li>
-            <li><a href="{{ '/general/contact/' | relative_url }}"><i class="icon -contact"></i>Contact us</a></li>
-          </ul-->
         </nav>
       </section>
     </div>

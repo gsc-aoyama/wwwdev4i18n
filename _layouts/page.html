@@ -42,6 +42,11 @@ layout: default
   </div>
   <div class="medium-4 large-4 columns">
     <aside id="aside">
+     <div class="{{page.category}}">
+       <ul class="list-menu">
+         <li class="campus"><a href="./" alt="Exchange Student Program">Exchange Student Program</a></li>
+      </ul>
+
      {% if category_pages %}
       {{category_pages.length}}
        <ul class="list-menu">
@@ -56,6 +61,7 @@ layout: default
        {% endfor %}
       </ul>
      {% endif %}
+     </div>
      <div class="facebook">
        <div class="fb-page" data-href="https://www.facebook.com/japanstudiesagu/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/aoyamagsc/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aoyamagsc/">青山学院大学 地球社会共生学部</a></blockquote></div>
      </div>
