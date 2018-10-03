@@ -239,6 +239,9 @@
     }
 
   ul.share {
+    display: none !important; }
+/*
+  ul.share {
     margin-left: 10px !important; }
 
   ul.share li i:hover {
@@ -247,13 +250,11 @@
     -ms-filter: "alpha(opacity=70)"; }
 
   ul.share li i.-facebook {
-    /*display: none !important;*/ }
+    color: #4267B2; }
+*/
+}
 
-  ul.share li i.-twitter {
-    /*display: none !important;*/ }
 
-  ul.share li i.-facebook {
-    color: #4267B2; } }
 @media screen and (max-width: 51em) {
   .s-cover .content-section .row .columns {
     margin-left: 0 !important; }
