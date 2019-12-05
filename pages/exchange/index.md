@@ -48,8 +48,8 @@ The partner faculties for the Departmental Exchange Student Program are as follo
 The Application Instructions for Exchange Students applying to the Departmental Exchange Student Program will be available in August.
 Stay tuned to access the documents.
 <ul>
-  <li><a href="../assets/assets/docs/2020/2020_Spring_Application_Instructions_for_Exchange_Students(English).pdf" target="_blank" class="pdf">Application Instructions for Exchange Students Spring 2020 (English)</a></li>
-  <li><a href="../assets/assets/docs/2020/2020_Spring_Application_Instructions_for_Exchange_Students(Japanese).pdf" target="_blank" class="pdf">Application Instructions for Exchange Students Spring 2020 (Japanese)</a></li>
+  <li><a href="../assets/docs/2020/2020_Spring_Application_Instructions_for_Exchange_Students(English).pdf" target="_blank" class="pdf">Application Instructions for Exchange Students Spring 2020 (English)</a></li>
+  <li><a href="../assets/docs/2020/2020_Spring_Application_Instructions_for_Exchange_Students(Japanese).pdf" target="_blank" class="pdf">Application Instructions for Exchange Students Spring 2020 (Japanese)</a></li>
 </ul>
 
 
