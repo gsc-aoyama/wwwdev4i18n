@@ -1,0 +1,123 @@
+---
+layout: default
+---
+{% assign category_pages = site.pages | where: "category", page.category |sort: 'sort' %}
+{% include category_voice_top.html %}
+<div class="row">
+  <div class="medium-3 large-3 columns">
+    <aside id="aside">
+     <div class="{{page.category}}">
+
+     {% if category_pages %}
+      {{category_pages.length}}
+       <ul class="list-menu">
+       {% for category_page in category_pages %}
+         {% if category_page and category_page.sort  %}
+         <li>
+           <a href="{{ category_page.url | relative_url }}">
+             {{ category_page.title | escape }}
+           </a>
+         </li>
+         {% endif %}
+       {% endfor %}
+      </ul>
+     {% endif %}
+     </div>
+    </aside>
+  </div>
+  <div class="medium-9 large-9 columns">
+    <section id="content">
+      <header class="content-header">
+        <div class="row">
+          <div class="columns">
+            {% assign parent_paths = page.permalink  | replace_first: '/','' | split: '/' %}
+            {% assign parent_paths_first = parent_paths | last %}
+            {% if page.category != 'general' and page.category != parent_paths_first %}
+            {% endif %}
+            <h1>{{ page.title | escape }}</h1>
+            {% if page.lead %}
+            <p class="lead">{{ page.lead | escape }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </header>
+      <section class="content-section">
+          <div class="row">
+              <div class="columns">
+                  {{ content }}
+                  <ul class="students_voice">
+                      <li>
+                          <img src="{{ '/assets/images/v1/2019/bn_voice01.jpg' | relative_url }}" alt="">
+                          <div class="text">
+                              <div class="base">
+                                  <p class="name">text text</p>
+                                  <hr class="line">
+                                  <p class="credit">text text text text text text text text</p>
+                              </div>
+                              <div class="base2">
+                                  <p class="voice">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p>
+                              </div>
+                          </div>
+                      </li>
+
+                      <li>
+                          <img src="{{ '/assets/images/v1/2019/bn_voice02.jpg' | relative_url }}" alt="">
+                          <div class="text">
+                              <div class="base">
+                                  <p class="name">text text</p>
+                                  <hr class="line">
+                                  <p class="credit">text text text text text text text text</p>
+                              </div>
+                              <div class="base2">
+                                  <p class="voice">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p>
+                              </div>
+                          </div>
+                      </li>
+
+                      <li>
+                          <img src="{{ '/assets/images/v1/2019/bn_voice03.jpg' | relative_url }}" alt="">
+                          <div class="text">
+                              <div class="base">
+                                  <p class="name">text text</p>
+                                  <hr class="line">
+                                  <p class="credit">text text text text text text text text</p>
+                              </div>
+                              <div class="base2">
+                                  <p class="voice">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</p>
+                              </div>
+                          </div>
+                      </li>
+
+                      <li>
+                          <img src="{{ '/assets/images/v1/2019/bn_voice04.jpg' | relative_url }}" alt="">
+                          <div class="text">
+                              <div class="base">
+                                  <p class="name">Andrew Hampson</p>
+                                  <hr class="line">
+                                 <p class="credit">U.S.A ( Linfield College )</p>
+                              </div>
+                              <div class="base2">
+                                  <p class="voice">AGU's Japan Studies Program has Provided me with a comprehensive learning experience synthesizing both academic and cultural curricula into one fantastic journey. I was able to achieve personal growth through every experience at AGU, becoming a more well-rounded student and global citizen, as well as give back to the AGU community by sharing my own cultural heritage, language and friendship. I would recommend this program to anyone seeking a challenging learning opportunity, personal growth, friendships, and of course, memories that will last a lifetime. Needless to say, the japan Studies Program has been the highlight of my undergraduate experience.</p>
+                              </div>
+                          </div>
+                      </li>
+
+                      <li>
+                          <img src="{{ '/assets/images/v1/2019/bn_voice05.jpg' | relative_url }}" alt="">
+                          <div class="text">
+                              <div class="base">
+                                  <p class="name">Natasha Zamil</p>
+                                  <hr class="line">
+                                  <p class="credit">Malaysia ( University of Malaya )</p>
+                              </div>
+                              <div class="base2">
+                                  <p class="voice">This student exchange program has shown its impact on me in various ways. I have learnt about numerous cultures and made the most of my opportunities given. I have gained new friends and felt as if I am a local in this country and a part of their culture. I have fallen in love with the environment as it is so lively yet peaceful and convenient. I have found that being an exchange student has been a life changing experience for me. It has made me realize that I can do so much more than I thought was possible. My advice to you would be to take every opportunity, embrace the culture, learn new language and enjoy making new lifelong connections. You will not regret it because I had the time of my life here!</p>
+                              </div>
+                          </div>
+                      </li>
+              </div>
+          </div>
+      </section>
+      </section>
+      </div>
+      </div>

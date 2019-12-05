@@ -64,7 +64,6 @@
 
   // +sassline($fontsize: zeta, $font: $font_sansserif, $lineheight: 2, $below: 2, $breakpoint: all)
   color: $text_color
-  font-feature-settings: 'kern', 'onum', 'liga'
 
 =a
   color: $link_color
@@ -115,7 +114,6 @@
 =list
   +baseline(zeta, $font_sansserif, 2, 2, all)
   li
-    font-feature-settings: 'kern', 'onum', 'liga'
     margin-left: 2rem
     ol, ul
       padding-top: 1rem
@@ -134,7 +132,6 @@
     counter-increment: top-level
     &:before
       content: counter(top-level) '.'
-      font-feature-settings: 'lnum', 'tnum'
       margin-left: -3rem
       position: absolute
       text-align: right
@@ -166,7 +163,6 @@
 =dl
   +baseline(zeta, $font_sansserif, 2, 2, all)
   dt, dd
-    font-feature-settings: 'kern', 'onum', 'liga'
     margin-left: 2rem
     +respond-to("small-only")
       margin-left: 0
@@ -179,7 +175,6 @@
 =table
   +sassline(eta, $font_sansserif_bold, 2, 0, all)
   font-family: $font-family-sans-serif
-  font-feature-settings: 'liga', 'lnum', 'tnum', 'kern'
   font-style: normal
   font-weight: 400
   width: 100%

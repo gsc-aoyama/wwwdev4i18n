@@ -15,8 +15,8 @@
   background: url(./images/home_cover.jpg) no-repeat center center
   +respond-to("large-up")
     background-size: contain
-    min-width: 1180px
-    height: 765px
+    min-width: 980px
+    height: 345px
   +respond-to("medium-only")
     background-size: cover
     height: 665px
@@ -74,39 +74,23 @@ strong
   font-weight: bold
 
 #footer
-  margin-top: 4em
-  background: $color_extralightpink
-  .earth
-    background: url(./images/footer_earth.png)
-    background-blend-mode: darken
-    mix-blend-mode: darken
-    background-size: cover
-    width: 146px
-    padding-top: 171px
-    margin: -60px auto 0 auto
-  img
-    width: 146px
-    display: block
-    margin: -100px auto 0 auto
   p
     text-align: center
     strong
   ul
     +centering-list
-
-
-
+    
 .card
   +clearfix
   line-height: 1.5rem
   border: 1px solid $color_extralightgray
   background: $color_extralightgray
-  margin: 2em 0
+  margin: 1em 0
   width: 100%
   font-size: 0.84375rem
-  padding: 2em
+  padding: 1em
   + .card
-    margin-top: -5em !important
+    margin-top: -3em !important
   .image
     display: block
     width: 33.3%
@@ -142,12 +126,6 @@ strong
 
 
 .list-sitemap
-  +float-list
-  li
-    width: 100%
-    margin: 1em 0
-    a
-      color: $color_black
   ul
     li
       &:before
@@ -158,7 +136,6 @@ strong
         padding-top: 2em
         position: relative
         margin-top: -1.45em
-        border-left: 1px solid $color_gray
       &:first-child
         &:before
           padding-top: 1em
@@ -170,11 +147,9 @@ strong
         width: 1em
         margin-right: .5em
         margin-top: .5em
-        border-top: 1px solid $color_gray
 
 
 #aside
-  border-top: 4px solid $color_pink
   p.title
     +sassline(epsilon, $font_sansserif_bold, 1.0, 0, all)
     padding: 2em .75em !important
@@ -184,27 +159,20 @@ strong
       +float-list
       li
         width: 100%
-        border-bottom: 1px solid $color_extralightgreen
+        border-bottom: 0px solid $color_extralightgreen
         &:first-child
           border-top: 1px solid $color_extralightgreen
         &:hover,
         &.current
           background: $color_extralightgreen
           a
-            color: $color_pink
+            color: $color_green
       a
         +sassline(zeta, $font_sansserif_bold, 1.0, 0, all)
-        padding: 1.5em .75em !important
+        padding: 1.1em .75em !important
         color: $color_black
         display: block
         &:before
-          content: ' '
-          display: inline-block
-          height: 16px
-          width: 16px
-          margin-right: 5px
-          background-image: url(./images/link_arrow.png)
-          background-size: contain
           vertical-align: -3px
     &.list-news
       a
@@ -212,13 +180,13 @@ strong
       br
         display: none
       .date
-        +sassline(eta, $font_sansserif, 1.0, 0, all)
-        padding-top: 1em !important
+        +sassline(eta, $font_sansserif_bold, 1.0, 0, all)
+        padding-top: 0.6em !important
         display: block
-        margin-left: 22px
+        font-size: 95% !important
     &.list-menu
   .facebook
-    margin-top: 2em
+    margin-top: 3em
     blockquote
       display: none
   .share
@@ -234,42 +202,45 @@ strong
 #content,
 #article
   .content-header
-    margin-bottom: 3em
+    margin-bottom: 1em
     h1
-      +sassline(beta, $font_sansserif_bold, 1.0, 0, all)
+      +sassline(beta, $font_sansserif_bold, 2.0, 0, all)
     .lead
-      +sassline(beta, $font_serif, 2.0, 1.0, all)
+      +sassline(beta, $font_sansserif, 2.0, 1.0, all)
       margin-top: 1em
   .article-header
     h1
       +sassline(zeta, $font_sansserif_bold, 1.0, 0, all)
-      background: $color_pink
+      background: $color_green
       display: inline-block
       color: #fff
       padding: 1em !important
     h4
-      +sassline(beta, $font_serif, 2.5, 1.0, all)
+      +sassline(beta, $font_sansserif, 2.5, 1.0, all)
       margin-top: 1.5em
   .content-section,
   .article-section
     padding-top: 0 !important
     a
-      color: $color_pink
-      text-decoration: underline
+      color: $color_green
+      text-decoration: none
     h2
       +sassline(delta, $font_sansserif_bold, 2.0, 1.0, all)
-      border-bottom: 4px solid $color_pink
+      //border-bottom: 4px solid $color_green
       padding: .5em .125em !important
     h3
       +sassline(zeta, $font_sansserif_bold, 2.0, 0, all)
-      color: $color_pink
+      color: $color_green
       &::before
         content: ""
       margin-top: 2em
+      font-size: 110% !important
     p
       +clearfix
+      margin-top: .5em
+      line-height: 1.8rem
     h4
-      +sassline(delta, $font_serif, 2.0, 2.0, all)
+      +sassline(delta, $font_sansserif, 2.0, 2.0, all)
       margin-top: 1.5em
       text-indent: -1.8em
       margin-left: 1.8em
@@ -287,6 +258,10 @@ strong
     img
       &.right
         width: 33.3%
+        float: right
+        margin: 0 0 1em 1em
+      &.right40
+        width: 40%
         float: right
         margin: 0 0 1em 1em
       &.left
@@ -308,9 +283,9 @@ strong
 .list-links
   +float-list
   margin: 2em 0
-  border-top: 1px solid $color_pink
+  border-top: 0px solid $color_green
   li
-    border-bottom: 1px solid $color_extralightgreen
+    border-bottom: 0px solid $color_extralightgreen
     &:hover
       background: $color_extralightgreen
     +respond-to("medium-up")
@@ -364,7 +339,7 @@ strong
       padding: 1.5em 2.5em !important
       color: #fff !important
       text-decoration: none !important
-      background: $color_pink
+      background: $color_green
       border-radius: 5em
       &:hover
         background: $color_lightgreen
@@ -376,14 +351,14 @@ strong
     &:hover
     .image
       background: $color_extralightgray
-      border-top: 4px solid $color_pink
+      border-top: 4px solid $color_green
       img
         display: block
     .text
       padding: 2em
       p.tagline
         +sassline(eta, $font_sansserif_bold, 1.0, 1.0, all)
-        color: $color_pink
+        color: $color_green
       h2
         +sassline(beta, $font_serif, 2.0, 1.0, all)
         color: $color_black
@@ -412,6 +387,42 @@ strong
         clear: left
         padding-right: 15px
     +respond-to("small-only")
+    width: 100%
+  a
+    display: block
+  .image
+    img
+      width: 100%
+      display: block
+  .text
+    p
+      +sassline(zeta, $font_sansserif, 1.7, 1.0, all)
+      strong
+        +sassline(epsilon, $font_sansserif_bold, 2.7, 1.0, all)
+        &:before
+          content: ' '
+          display: inline-block
+          height: 20px
+          width: 20px
+          margin-right: 5px
+          background-image: url(./images/link_arrow.png)
+          background-size: contain
+          vertical-align: -3px
+        
+.list-pannel2
+  +float-list
+  margin: -1em 0 0 0
+  li
+    +respond-to("medium-up")
+      width: 50%
+      margin-bottom: 1em
+      &:nth-child(2n)
+        padding-left: 15px
+      &:nth-child(2n+1)
+        clear: left
+        padding-right: 15px
+    +respond-to("small-only")
+    width: 100%
   a
     display: block
   .image
@@ -480,6 +491,12 @@ strong
     +sassline(zeta, $font_sansserif, 1.3, .5, all)
     color: $color_darkgray
     margin-left: 2.5em
+    
+.list-none
+  li
+    +sassline(zeta, $font_sansserif, 1.3, .5, all)
+    color: $color_darkgray
+    margin-left: 1em
 
 
 table
@@ -501,7 +518,7 @@ table
 
 
 .youtube
-  margin-top: 1em
+  margin-top: 0em
   position: relative
   width: 100%
   padding-top: 56.25%
@@ -518,7 +535,7 @@ table
   li
     a
       +sassline(zeta, $font_sansserif_bold, 1.0, 0, all)
-      background: $color_pink
+      background: $color_green
       display: inline-block
       color: #fff
       padding: 1em .25em 1em 0 !important
@@ -533,24 +550,17 @@ table
         &:after
           content: ""
 
-
-
-
-
-
 .list-teacher
   +float-list
   &>li
     &::before
       content: ''
-      border-top: 4px solid $color_pink
+      border-top: 4px solid $color_green
       display: block
       height: 4px
       width: 100%
-      margin-bottom: 2em
+      margin-top: 25px
     +respond-to("medium-up")
-      margin-top: 2em
-      margin-bottom: 4em
       width: 50%
       &:nth-child(2n+1)
         clear: both
@@ -558,8 +568,6 @@ table
       &:nth-child(2n)
         padding-left: 15px
     +respond-to("small-only")
-      margin-top: 1em
-      margin-bottom: 2em
       width: 100%
     .photo
       height: 120px
@@ -567,7 +575,8 @@ table
       overflow: hidden
       margin: 0 auto
       border-radius: 200px
-      margin-bottom: 20px
+      margin-top: 20px
+      margin-bottom: 8px
       img
         overflow: hidden
         width: 120px
@@ -575,41 +584,101 @@ table
       p
         &.name
           text-align: center
-          line-height: 1.6
-          span
-            &.jp
-              +sassline(delta, $font_sansserif_bold, 1.0, 0, all)
-              letter-spacing: .1em
-            &.en
-              +sassline(theta, $font_sansserif_en, 1.0, 0, all)
-              color: $color_gray
-              text-transform: capitalize
+          line-height: 1
         &.credit
           text-align: center
-          line-height: 1.6
+          line-height: 1
           span
             &:first-child
               +sassline(eta, $font_sansserif_bold, 1.0, 0, all)
               margin-right: .75em
             &:nth-child(3)
               +sassline(eta, $font_sansserif, 1.0, 0, all)
-        &.message
+        &.message-title
           +sassline(eta, $font_sansserif, 1.5, 0, all)
-          margin-top: 1em
           text-align: center
-          padding: 0 1em
+          padding: 0 1em 0 1em
           strong
             margin-right: 1em
+        &.message
+          +sassline(eta, $font_sansserif, 1.5, 0, all)
+      .base
+        background-color: #dafaf2
+        height: 100%
       h3
       ul
         +float-list
-        margin-top: 2em
+        margin-top: .5em
         li
           text-align: center
           width: 100%
           margin-bottom: .5em
           a
-            +sassline(eta, $font_sansserif, 1.0, 0, all)
+            +sassline(eta, $font_sansserif_bold, 1.0, 0, all)
+            padding: 1em !important
+            &:before
+              content: ' '
+              display: inline-block
+              height: 16px
+              width: 16px
+              margin-right: 5px
+              background-image: url(./images/link_arrow.png)
+              background-size: contain
+              vertical-align: middle
+
+.students_voice
+  +float-list
+  &>li
+    &::before
+      content: ''
+      border-top: 4px solid $color_green
+      display: block
+      height: 4px
+      width: 100%
+      margin-top: 25px
+    +respond-to("medium-up")
+      width: 50%
+      &:nth-child(2n+1)
+        clear: both
+        padding-right: 15px
+      &:nth-child(2n)
+        padding-left: 15px
+    +respond-to("small-only")
+      width: 100%
+    .text
+      p
+        &.name
+          text-align: center
+          font-weight: bold
+          font-size: 110%
+        &.credit
+          text-align: center
+          font-weight: bold
+          font-size: 110%
+          padding: 0 !important
+        &.voice
+          +sassline(eta, $font_sansserif, 2.0, 0, all)
+          text-align: left
+      .base
+        background-color: #dafaf2
+        height: 100%
+        padding: 0.5em 0 1em 0
+      .base2
+        background-color: #f6f6f6
+        height: 100%
+        padding: 0.5em 1em 2em 1em
+      .line
+        width: 80%
+      h3
+      ul
+        +float-list
+        margin-top: .5em
+        li
+          text-align: center
+          width: 100%
+          margin-bottom: .5em
+          a
+            +sassline(eta, $font_sansserif_bold, 1.0, 0, all)
             padding: 1em !important
             &:before
               content: ' '

@@ -1,7 +1,7 @@
 <header id="header" class="s-header">
   <div class="row">
     <div class="columns">
-      <h1 class="h-logo"><a href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/header_logo_gsc.png' | relative_url }}" alt="{{ site.title | escape }}"></a></h1>
+      <h1 class="h-logo"><a href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/header_logo.png' | relative_url }}" alt="{{ site.title | escape }}"></a></h1>
       <section class="m-header_nav" js-hamburger>
         <a href="javascript:void(0)" class="m-hamburger_btn" js-hamburger_btn>
           <div></div><div></div><div></div>
@@ -28,12 +28,14 @@
                 {% endif %}
               {% endfor %}
               {% endif %}
-              <!--<li class="{{ page.id }}"><a href="https://gsc-aoyama.github.io/www4gsc/"><i class="icon -international"></i>日本語サイトへ</a></li>-->
+              <li class="{{ page.id }}"> </li>
+
             </ul>
           </div>
           <ul class="header_right">
             <li class="hr1"><a href="http://www.aoyama.ac.jp/en/" target="_blank"><i class="icon -aoyama"></i>Aoyama Gakuin University</a></li>
-            <li class="hr2"><a href="https://gsc-aoyama.github.io/www4gsc/"><i class="icon -international 日本語サイトへ"></i>日本語サイトへ</a></li>
+            <li class="hr2"><a href="{{ '/general/contact/' | relative_url }}"><i class="icon -contact"></i>Contact</a></li>
+            <li class="hr3"><a href="https://gsc-aoyama.github.io/www4gsc/"><i class="icon -international"></i>Japanese</a></li>
           </ul>
         </nav>
       </section>

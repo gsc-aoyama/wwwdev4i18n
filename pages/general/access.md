@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_general
 title: Access
 permalink: /general/access/
 category: general
