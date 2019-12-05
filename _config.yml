@@ -17,7 +17,7 @@ title: GSC at AGU
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The School of Global Studies and Collaboration (GSC), Aoyama Gakuin University
-baseurl: "/www4i18n_test" # the subpath of your site, e.g. /blog
+baseurl: "/wwwdev4i18n" # the subpath of your site, e.g. /blog
 # baseurl: "." # the subpath of your site, e.g. /blog
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
