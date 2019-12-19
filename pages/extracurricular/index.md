@@ -10,9 +10,13 @@ sort: 1
 
 GSC offers excursions and field trips so students can experience Japan first-hand. We take in cultural and historic sites in the vicinity of the campus, such as the medieval capital of Kamakura and bustling downtown Tokyo including Asakusa and the Sky Tree tower.
 
+<img src="{{ '/assets/images/v1/2019/field_trips_01.jpg' | relative_url }}" alt="">
+
 The program also provides opportunities to see art performances, both contemporary and traditional, that AGU graduates are involved in. These range from Noh and Kabuki to modern theater. Students will also experience traditional and contemporary Japanese culture, such as Washoku (Japanese cuisine) and Wagashi (Japanese sweets), as well as robots that provide care for the elderly and other facets of modern industry.
 
 In addition, the program organizes field trips to other parts of Japan including UNESCO World Heritage sites, such as Mount Fuji and sites in Kyoto, and to post-disaster areas to see and help with reconstruction and disaster prevention efforts.
+
+<img src="{{ '/assets/images/v1/2019/field_trips_02.jpg' | relative_url }}" alt="">
 
 All students take part in these extracurricular activities. They can see, feel and experience Japanese cultural heritage, the way of life and esthetics. The AGU network offers students unique opportunities to immerse themselves in Japan, in ways that are completely different from regular tourist visits, and to capitalize on what they learn in classes.
 
@@ -22,6 +26,7 @@ All students take part in these extracurricular activities. They can see, feel a
 ## Internships
 
 We offer various internship opportunities for international students at world-renowned Japanese companies, NPOs/NGOs, local governments, and so on. Our program offers full support for internships from start to finish. Explore your career interests and gain valuable experiences off-campus by working in a different culture.
+
 
 <h2 id="contact">Contact</h2>
 <ul>

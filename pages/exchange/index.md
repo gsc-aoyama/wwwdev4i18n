@@ -5,12 +5,15 @@ permalink: /exchange/
 category: exchange
 sort: 1
 ---
+<img src="{{ '/assets/images/v1/2019/exchange_01.jpg' | relative_url }}" alt="">
 
 Thank you for your interest in our Exchange Student Program.
 The School of Global Studies and Collaboration (GSC) develops students’ global perspectives with a focus on collaboration with Asian countries. That is why our exchange students are mostly from Thailand, Malaysia and elsewhere in the region. We also welcome students from various countries. GSC’s Japan Studies Program offers international students opportunities to explore the multi-facets of Japan in English.
 
 
 For more information, please refer to the Information on the Exchange Student Program as well as lists and descriptions of courses which will be available in August.
+
+<img src="{{ '/assets/images/v1/2019/exchange_02.jpg' | relative_url }}" alt="">
 
 <h2 id="program-details">Program Details</h2>
 <ul>
@@ -31,6 +34,7 @@ If you are interested in studying at GSC as a university exchange student, pleas
 <ul>
   <li><a href="http://web.iec.aoyama.ac.jp/" target="_blank" class="pop">http://web.iec.aoyama.ac.jp/</a></li>
 </ul>
+
 
 ## Departmental Exchange Student Program
 GSC has its own exchange agreements with faculties of foreign universities.
