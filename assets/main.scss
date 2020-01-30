@@ -79,23 +79,12 @@
 
   #footer .sns{
     background-color: #999999;
-    height: 68px !important;
   }
   
-   #footer .sns li{
-    margin-left: 15px;
+  #footer img{
+    height: 37px
   }
 
-  #footer .sns i {
-    font-size: 40px;
-    color: $color_white;
-  }
-
-  #footer .icon i:hover {
-    opacity: 0.7;
-    filter: alpha(opacity=70);
-    -ms-filter: "alpha(opacity=70)";
-  }
   
   #footer .nav li{
     margin: 10px 0 0 15px;
@@ -187,11 +176,16 @@
 
   #footer .sns{
     background-color: #999999;
+    padding-top: 3px;
     height: 68px !important;
   }
   
    #footer .sns li{
     margin-left: 15px;
+  }
+  
+  #footer img{
+    height: 37px
   }
 
   #footer .sns i {
@@ -634,6 +628,7 @@ h2.topix-title {
 /*----- 英語版パンフレット -----*/
 .pamphlet {
     text-align: center;
+    margin-top: 50px;
 }
 
 .pamphlet-icon {
@@ -914,3 +909,89 @@ h2.pamphlet a {
     bottom: -0.1em;
     margin-left: 0.5em;
 }
+
+/*--テーブル01--*/
+
+#content .table01{
+  width:100%;
+  word-wrap : break-word;
+}
+
+#content .table01 tbody tr th {
+  text-align: center;
+  padding: 5px !important;
+  border: solid 1px #DDDDDD !important;
+}
+
+#content .table01 tbody tr td {
+  padding: 5px !important;
+  border: solid 1px #DDDDDD !important;
+}
+
+
+/*--テーブル02--*/
+
+#content .table02{
+  width:100%;
+  word-wrap : break-word;
+  margin: 0;
+}
+
+#content .table02 tbody th {
+  background-color: #f6f6f6 !important;
+}
+
+#content .table02 tbody tr th {
+  font-size: 85% !important;
+  text-align: center;
+  padding: 3px !important;
+  border: solid 1px #c8c8c8 !important;
+}
+
+#content .table02 tbody tr td {
+  font-size: 85% !important;
+  text-align: center;
+  padding: 5px !important;
+  border: solid 1px #c8c8c8 !important;
+}
+
+#content .jsc {
+  background-color: #d4edea !important;
+}
+
+#content .category {
+  background-color: #e9f5f3 !important;
+}
+
+#content .course {
+    text-align: left !important;
+}
+
+#content .change {
+    text-align: right !important;
+}
+
+/*--マージン--*/
+#content .mgn-0 { margin: 0 !important; }
+
+#content .mgn-B00 { margin-bottom: 0 !important; }
+#content .mgn-B10 { margin-bottom: 10px !important; }
+#content .mgn-B15 { margin-bottom: 15px !important; }
+#content .mgn-B20 { margin-bottom: 20px !important; }
+#content .mgn-B30 { margin-bottom: 30px !important; }
+#content .mgn-B40 { margin-bottom: 40px !important; }
+#content .mgn-B50 { margin-bottom: 50px !important; }
+
+#content .mgn-T00 { margin-top: 0 !important; }
+#content .mgn-T10 { margin-top: 10px !important; }
+#content .mgn-T15 { margin-top: 15px !important; }
+#content .mgn-T20 { margin-top: 20px !important; }
+#content .mgn-T30 { margin-top: 30px !important; }
+#content .mgn-T40 { margin-top: 40px !important; }
+#content .mgn-T50 { margin-top: 50px !important; }
+
+/*--配置--*/
+#content .cntr {text-align: center !important;}
+#content .rgt {text-align: right !important;}
+#content .lft {text-align: justify;}
+ 
