@@ -269,6 +269,7 @@ strong
         float: left
         margin: 0 1em 1em 0
       &.center
+        width: 80%
         margin: 0 auto
         display: block
     p+h2,
@@ -311,7 +312,7 @@ strong
 
 .list-grid
   +float-list
-  margin: 0
+  margin: 2em 0
   &>li
     +sassline(zeta, $font_sansserif, 1.75, 0, all)
     +respond-to("medium-up")
@@ -650,22 +651,14 @@ table
           text-align: center
           font-weight: bold
           font-size: 110%
-          line-height: 1 !important
         &.credit
           text-align: center
           font-weight: bold
-          font-size: 100%
-          line-height: 1 !important
-          padding: 0 
+          font-size: 110%
+          padding: 0 !important
         &.voice
           +sassline(eta, $font_sansserif, 2.0, 0, all)
           text-align: left
-          line-height: 1.6 !important
-        &.voice2
-          font-weight: bold
-          font-size: 100%
-          line-height: 1.2 !important
-          color: $color_green
       .base
         background-color: #dafaf2
         height: 100%

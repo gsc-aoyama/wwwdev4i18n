@@ -26,10 +26,11 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 header_pages:
-  - pages/aboutagu/index.md
-  - pages/aboutgsc/index.md
+  - pages/aboutus/index.md
   - pages/exchange/index.md
-  - pages/studentlife/index.md
+  - pages/extracurricular/index.md
+  - pages/support/index.md
+  - pages/voice/index.md
 
 paginate: 10
 paginate_path: "/news/page:num/"
