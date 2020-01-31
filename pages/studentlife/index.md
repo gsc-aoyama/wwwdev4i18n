@@ -33,12 +33,12 @@ AGU I-House Sagamihara is a coed dormitory few steps from the Sagamihara campus 
   <ul class="list-grid">
     <li><img src="{{ '/assets/images/v1/2019/studentlife01.jpg' | relative_url }}" alt="Library">
       <p><strong>Library</strong></p>
-      <p>AGU's libraries house a total of 2.2 million books. Basic services such as reserving books and extending return dates can handled online.</p>
+      <p>AGU's libraries house a total of 2.2 million books. Basic services such as reserving books and extending return dates can be handled online.</p>
     </li>
     
     <li><img src="{{ '/assets/images/v1/2019/studentlife02.jpg' | relative_url }}" alt="Student Health Clinics">
       <p><strong>Student Health Clinics</strong></p>
-      <p>Student have access to Studend Health Clinics that provide regular health checks for early diagnosis and prevention of illness as well as emergency treatment, medeical testing, and health research.</p>
+      <p>Students have access to Student Health Clinics that provide regular health checks for early diagnosis and prevention of illness as well as emergency treatment, medeical testings, and health research.</p>
     </li>
     
     <li><img src="{{ '/assets/images/v1/2019/studentlife03.jpg' | relative_url }}" alt="Internet Access">
@@ -48,16 +48,16 @@ AGU I-House Sagamihara is a coed dormitory few steps from the Sagamihara campus 
     
         <li><img src="{{ '/assets/images/v1/2019/studentlife04.jpg' | relative_url }}" alt="Bookshop">
       <p><strong>Bookshop</strong></p>
-      <p>Student can get most things they need for university life at our bookshop. Textbooks, School supplies, and computers, as well as regular books, magazines, and electronic appliances are available at student prices.</p>
+      <p>Students can get most things they need for university life at our bookshop. Textbooks, school supplies, and computers, as well as regular books, magazines, and electronic appliances are available at student prices.</p>
     </li>
     
         <li><img src="{{ '/assets/images/v1/2019/studentlife05.jpg' | relative_url }}" alt="Cafeteria">
       <p><strong>Cafeteria</strong></p>
-      <p>The student dining hall offers an extensive and inexpensive nenu as well as space Where students can enjoy takeway dishes. There is also a convenience store and a large sutudent lounge.</p>
+      <p>The student dining hall offers an extensive and inexpensive menu as well as space where students can enjoy takeway dishes. There is also a convenience store and a large student lounge.</p>
     </li>
     
         <li><img src="{{ '/assets/images/v1/2019/studentlife06.jpg' | relative_url }}" alt="Gym-fitness Center">
-      <p><strong>Gym-fitness Center</strong></p>
+      <p><strong>Gym-Fitness Center</strong></p>
       <p>The Fitness Center has various training equipment and shower rooms. It is open to all students at student prices. The fitness center also offers unique training programs such as Yoga. Boxercise, group running, and others.</p>
     </li>
   </ul>
