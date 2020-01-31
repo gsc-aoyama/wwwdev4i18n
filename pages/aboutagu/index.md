@@ -10,7 +10,7 @@ sort: 1
 
 <img src="{{ '/assets/images/v1/2019/about_us01.jpg' | relative_url }}" alt="Aoyama Gakuin University (AGU)">
 
-### National Reputation for Excellence
+### A National Reputation for Excellence
 Aoyama Gakuin University is a nationally renowned leader in Japanese higher education. Established in 1949 as the flagship institution of the larger Aoyama Gakuin school system, the university boasts generations of graduates that have become leaders in fields ranging from arts and athletics to business and national politics. Aoyama Gakuin, a comprehensive educational institute encompassing all levels from kindergarten to university, was founded in 1874 by American missionaries based on Christian faith. It continues to carry that legacy today with its distinctive emphasis on instilling a commitment to service and an international outlook into its students. In addition to providing high level instruction in specialized fields across 11 schools and 25 departments, the university strives to cultivate "servant leaders" that possess both the knowledge and character to effectively serve their communities locally and globally.
 
 <img src="{{ '/assets/images/v1/2019/about_us02.jpg' | relative_url }}" alt="Aoyama Gakuin University (AGU)">
