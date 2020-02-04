@@ -38,7 +38,7 @@ AGU I-House Sagamihara is a coed dormitory few steps from the Sagamihara campus 
     
     <li><img src="{{ '/assets/images/v1/2019/studentlife02.jpg' | relative_url }}" alt="Student Health Clinics">
       <p><strong>Student Health Clinics</strong></p>
-      <p>Students have access to Student Health Clinics that provide regular health checks for early diagnosis and prevention of illness as well as emergency treatment, medeical testings, and health research.</p>
+      <p>Students have access to Student Health Clinics that provide regular health checks for early diagnosis and prevention of illness as well as emergency treatment, medical testings, and health research.</p>
     </li>
     
     <li><img src="{{ '/assets/images/v1/2019/studentlife03.jpg' | relative_url }}" alt="Internet Access">
@@ -53,12 +53,12 @@ AGU I-House Sagamihara is a coed dormitory few steps from the Sagamihara campus 
     
         <li><img src="{{ '/assets/images/v1/2019/studentlife05.jpg' | relative_url }}" alt="Cafeteria">
       <p><strong>Cafeteria</strong></p>
-      <p>The student dining hall offers an extensive and inexpensive menu as well as space where students can enjoy takeway dishes. There is also a convenience store and a large student lounge.</p>
+      <p>The student dining hall offers an extensive and inexpensive menu as well as space where students can enjoy takeaway dishes. There is also a convenience store and a large student lounge.</p>
     </li>
     
         <li><img src="{{ '/assets/images/v1/2019/studentlife06.jpg' | relative_url }}" alt="Gym-fitness Center">
       <p><strong>Gym-Fitness Center</strong></p>
-      <p>The Fitness Center has various training equipment and shower rooms. It is open to all students at student prices. The fitness center also offers unique training programs such as Yoga. Boxercise, group running, and others.</p>
+      <p>The Fitness Center has various training equipment and shower rooms. It is open to all students at student prices. The fitness center also offers unique training programs such as Yoga, Boxercise, group running, and others.</p>
     </li>
   </ul>
 
