@@ -12,7 +12,7 @@ Please refer to "<a href="../../assets/docs/2020/Information_on_the_Exchange_Stu
 
 ## Japan Studies Courses
 
-The Japan Studies Courses offer a variety of programs and events that allow students to immerse themselves in Japan together with their domestic counterparts. Students can choose from a selection of courses covering business, culture, history, sociology, and spatial information, where they will learn from a collection of renowned researchers, artists, and policy analysts about issues in each field. Some of the courses provide opportunities for hands-on experiences of traditional and contemporary Japanese culture, from Noh and Kabuki to pop culture and robotics, inside and outside of the classroom. These events give students the chance to become familiar with numerous aspects of Japan's vibrant cultural heritage while building lasting connections with their Japanese peers.  
+The Japan Studies Courses offer a variety of programs that allow students to immerse themselves in Japan together with their domestic counterparts. Students can choose from a selection of courses covering business, culture, history, sociology, and spatial information, where they will learn from a collection of renowned researchers, artists, and policy analysts about issues in each field. Some of the courses provide opportunities for hands-on experiences of traditional and contemporary Japanese culture, from Noh and Kabuki to pop culture and robotics, inside and outside of the classroom.
 
 <a href="../../assets/docs/2020/Course_Descriptions_for_Japan_Studies_Courses.pdf" target="_blank" class="pdf">Course Description for Japan Studies Courses (PDF)</a>
 
@@ -30,7 +30,7 @@ The Japan Studies Courses offer a variety of programs and events that allow stud
 		</tr>
 		<tr>
 			<td rowspan="16" class="jsc">Japan Studies Courses</td>
-			<td rowspan="3" class="category">Spatial Information</td>
+			<td rowspan="4" class="category">Geo-Media and Spatial Information</td>
 			<td class="course">New Frontiers in Geospatial Gaming</td>
 			<td>2</td>
 			<td>Fall</td>
@@ -45,14 +45,14 @@ The Japan Studies Courses offer a variety of programs and events that allow stud
 			<td>2</td>
 			<td>Spring</td>
 		</tr>
-
 		<tr>
-			<td rowspan="3" class="category">Media</td>
 			<td class="course">Drone Journalism</td>
 			<td>2</td>
-			<td>Spring</td>
+			<td>Fall</td>
 		</tr>
+
 		<tr>
+			<td rowspan="2" class="category">Japanese History</td>
 			<td class="course">Modern Japanese History: From Samurai Age to Modernity</td>
 			<td>2</td>
 			<td>Fall</td>
@@ -60,14 +60,14 @@ The Japan Studies Courses offer a variety of programs and events that allow stud
 		<tr>
 			<td class="course">War Memory in Modern Japan</td>
 			<td>2</td>
-			<td>Fall</td>
+			<td>Spring</td>
 		</tr>
 
 		<tr>
-			<td rowspan="3" class="category">Sociology</td>
+			<td rowspan="3" class="category">Modern Japanese Society</td>
 			<td class="course">Introduction to Japanese Politics and Society</td>
 			<td>2</td>
-			<td>Spring</td>
+			<td>Fall</td>
 		</tr>
 		<tr>
 			<td class="course">Issues in Modern Japanese Education</td>
@@ -81,10 +81,10 @@ The Japan Studies Courses offer a variety of programs and events that allow stud
 		</tr>
 
 		<tr>
-			<td rowspan="3" class="category">Collaboration</td>
+			<td rowspan="3" class="category">Japanese Culture</td>
 			<td class="course">Introduction to Japanese Culture</td>
 			<td>2</td>
-			<td>Fall</td>
+			<td>Spring</td>
 		</tr>
 		<tr>
 			<td class="course">Traditional Art and Culture in Modern Japan</td>
@@ -94,14 +94,14 @@ The Japan Studies Courses offer a variety of programs and events that allow stud
 		<tr>
 			<td class="course">Cool Japan: Contextualizing Contemporary Popular Culture</td>
 			<td>2</td>
-			<td>Spring</td>
+			<td>Fall</td>
 		</tr>
 
 		<tr>
-			<td rowspan="4" class="category">Business</td>
+			<td rowspan="4" class="category">Japanese Economy and Business</td>
 			<td class="course">Travel and Tourism in Contemporary Japan</td>
 			<td>2</td>
-			<td>Fall</td>
+			<td>Spring</td>
 		</tr>
 		<tr>
 			<td class="course">Financial Systems and Economic Development in Postwar Japan</td>
@@ -126,9 +126,9 @@ The Japan Studies Courses offer a variety of programs and events that allow stud
 GSC takes an interdisciplinary curricular approach based on the broad field of the social sciences. This interdisciplinary curriculum ensures that students receive broad-based social science instruction that can be utilized in a wide variety of fields. Experienced practitioners teach students so they can integrate theories into professional practice for solving today's social problems and improve the global community through project-based learning activities.   
 
 <ul class="mgn-T15">
-  <li><a href="../../assets/docs/2019/Course Descriptions for GSC Courses offered in English.pdf" target="_blank" class="pdf">Course Description for GSC courses offered in English (PDF)</a></li>
-  <li><a href="../../assets/docs/2019/2019courselist_English.pdf" target="_blank" class="pdf">List of Courses offered in English (PDF)</a></li>
-  <li><a href="../../assets/docs/2019/2019courselist_Japanese.pdf" target="_blank" class="pdf">List of Courses offered in Japanese (PDF)</a></li>
+  <li><a href="../../assets/docs/2020/Course Descriptions for GSC Courses offered in English.pdf" target="_blank" class="pdf">Course Description for GSC courses offered in English (PDF)</a></li>
+  <li><a href="../../assets/docs/2020/2020Course list_ENG.pdf" target="_blank" class="pdf">List of Courses offered in English (PDF)</a></li>
+  <li><a href="../../assets/docs/2020/2020Course list_Japanese.pdf" target="_blank" class="pdf">List of Courses offered in Japanese (PDF)</a></li>
 </ul>
 
 

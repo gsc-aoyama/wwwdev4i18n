@@ -43,7 +43,7 @@ AGU I-House Sagamihara is a coed dormitory few steps from the Sagamihara campus 
     
     <li><img src="{{ '/assets/images/v1/2019/studentlife03.jpg' | relative_url }}" alt="Internet Access">
       <p><strong>Internet Access</strong></p>
-      <p>Wi-Fi Internet access is available for JSCP students throughout the campus.</p>
+      <p>Wi-Fi Internet access is available for students throughout the campus.</p>
     </li>
     
         <li><img src="{{ '/assets/images/v1/2019/studentlife04.jpg' | relative_url }}" alt="Bookshop">

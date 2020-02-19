@@ -14,9 +14,9 @@ To study at GSC, you can apply to one of the following programs:
 
 
 ## University Exchange Student Program
-Aoyama Gakuin University accepts exchange students from partner universities. If you are interested in studying at GSC as a university exchange student, please visit the International Exchange Center website for more details.
+Aoyama Gakuin University accepts exchange students from partner universities. If you are interested in studying at GSC as a university exchange student, please visit the International Center website for more details.
 
-<a href="http://web.iec.aoyama.ac.jp/" target="_blank" class="pop">International Exchange Center</a> 
+<a href="http://web.iec.aoyama.ac.jp/" target="_blank" class="pop">International Center</a> 
 
 
 ## Departmental Exchange Student Program
@@ -35,8 +35,12 @@ The partner faculties for the Departmental Exchange Student Program are as follo
 Please refer to the following instructions for more details in applying to the Departmental Exchange Student Program.  
 
 
-<a href="../../assets/docs/2020/2020_Spring_Application_Instructions_for_Exchange_Students(English).pdf" target="_blank" class="pdf">Application Instructions for Exchange Students Spring 2020 (English) </a>  
-<a href="../../assets/docs/2020/2020_Spring_Application_Instructions_for_Exchange_Students(Japanese).pdf" target="_blank" class="pdf">Application Instructions for Exchange Students Spring 2020 (Japanese)</a>
+<a href="../../assets/docs/2020/2020_Spring_Application_Instructions_for_Exchange_Students(English).pdf" target="_blank" class="pdf">Application Instructions for Exchange Students Spring 2020 (English)</a>  
+<a href="../../assets/docs/2020/2020_Fall_Application Instructions for Exchange Students(English).pdf" target="_blank" class="pdf">Application Instructions for Exchange Students Fall 2020 (English)</a>  
+
+
+<a href="../../assets/docs/2020/2020_Spring_Application_Instructions_for_Exchange_Students(Japanese).pdf" target="_blank" class="pdf">Application Instructions for Exchange Students Spring 2020 (Japanese)</a>  
+<a href="../../assets/docs/2020/2020_Fall_Application Instructions for Exchange Students(Japanese).pdf" target="_blank" class="pdf">Application Instructions for Exchange Students Fall 2020 (Japanese)</a>
 
 
 The application instructions for Departmental Exchange Program will be available at the following schedule:
