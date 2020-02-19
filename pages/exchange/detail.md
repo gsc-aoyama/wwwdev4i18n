@@ -67,12 +67,12 @@ The Japan Studies Courses offer a variety of programs that allow students to imm
 			<td rowspan="3" class="category">Modern Japanese Society</td>
 			<td class="course">Introduction to Japanese Politics and Society</td>
 			<td>2</td>
-			<td>Fall</td>
+			<td>Spring</td>
 		</tr>
 		<tr>
 			<td class="course">Issues in Modern Japanese Education</td>
 			<td>2</td>
-			<td>Spring</td>
+			<td>Fall</td>
 		</tr>
 		<tr>
 			<td class="course">Lifestyle and Society in Japan</td>
