@@ -23,6 +23,9 @@ The Japan Studies Courses offer a variety of programs that allow students to imm
 <table class="table02">
 	<tbody>
 		<tr>
+			<th colspan="4">Japan Studies Courses</th>
+		</tr>
+		<tr>
 			<th>Course Category</th>
 			<th>Course Title</th>
 			<th>Credit</th>
