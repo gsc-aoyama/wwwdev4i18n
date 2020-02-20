@@ -23,14 +23,12 @@ The Japan Studies Courses offer a variety of programs that allow students to imm
 <table class="table02">
 	<tbody>
 		<tr>
-			<th></th>
 			<th>Course Category</th>
 			<th>Course Title</th>
 			<th>Credit</th>
 			<th>Semester</th>
 		</tr>
 		<tr>
-			<td rowspan="16" class="jsc">Japan Studies Courses</td>
 			<td rowspan="4" class="category">Geo-Media and Spatial Information</td>
 			<td class="course">New Frontiers in Geospatial Gaming</td>
 			<td>2</td>
