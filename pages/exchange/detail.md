@@ -19,6 +19,7 @@ The Japan Studies Courses offer a variety of programs that allow students to imm
 {:.rgt}
 *Courses are subject to change.
 
+<div class="scroll-table mgn-B50">
 <table class="table02">
 	<tbody>
 		<tr>
@@ -121,6 +122,7 @@ The Japan Studies Courses offer a variety of programs that allow students to imm
 
 	</tbody>
 </table>
+</div>
 
 ## GSC Courses
 GSC takes an interdisciplinary curricular approach based on the broad field of the social sciences. This interdisciplinary curriculum ensures that students receive broad-based social science instruction that can be utilized in a wide variety of fields. Experienced practitioners teach students so they can integrate theories into professional practice for solving today's social problems and improve the global community through project-based learning activities.   

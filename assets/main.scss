@@ -971,6 +971,16 @@ h2.pamphlet a {
     text-align: right !important;
 }
 
+
+/*--テーブルスクロール--*/
+
+@media screen and (max-width: 51em) {/*816px以下*/
+.scroll-table {
+  overflow: auto;
+}
+}
+
+
 /*--マージン--*/
 #content .mgn-0 { margin: 0 !important; }
 
