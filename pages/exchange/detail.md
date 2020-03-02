@@ -129,9 +129,9 @@ The Japan Studies Courses offer a variety of programs that allow students to imm
 GSC takes an interdisciplinary curricular approach based on the broad field of the social sciences. This interdisciplinary curriculum ensures that students receive broad-based social science instruction that can be utilized in a wide variety of fields. Experienced practitioners teach students so they can integrate theories into professional practice for solving today's social problems and improve the global community through project-based learning activities.   
 
 <ul class="mgn-T15">
-  <li><a href="../../assets/docs/2020/Course Descriptions for GSC Courses offered in English.pdf" target="_blank" class="pdf">Course Description for GSC courses offered in English (PDF)</a></li>
-  <li><a href="../../assets/docs/2020/2020Course list_ENG.pdf" target="_blank" class="pdf">List of Courses offered in English (PDF)</a></li>
-  <li><a href="../../assets/docs/2020/2020Course list_Japanese.pdf" target="_blank" class="pdf">List of Courses offered in Japanese (PDF)</a></li>
+  <li><a href="../../assets/docs/2020/Course_Descriptions_for_GSC_Courses_offered_in_English.pdf" target="_blank" class="pdf">Course Description for GSC courses offered in English (PDF)</a></li>
+  <li><a href="../../assets/docs/2020/2020Course_list_ENG.pdf" target="_blank" class="pdf">List of Courses offered in English (PDF)</a></li>
+  <li><a href="../../assets/docs/2020/2020Course_list_Japanese.pdf" target="_blank" class="pdf">List of Courses offered in Japanese (PDF)</a></li>
 </ul>
 
 
