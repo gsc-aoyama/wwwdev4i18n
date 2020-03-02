@@ -135,7 +135,7 @@ GSC takes an interdisciplinary curricular approach based on the broad field of t
 </ul>
 
 
-## Japan Studies Courses
+## Japan Language Courses
 AGU offers Japanese language courses for beginners to advanced students as follows. The course does not require any Japanese language proficiency at the time of admission. Japanese and Japanese Culture & Society are taken according to levels. The levels are decided based on the Placement Test result and application documents. These courses are offered under undergraduate courses. Please note that AGU does not have a separate Language Center.
 
 
