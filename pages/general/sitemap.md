@@ -18,7 +18,7 @@ sort: 3
 {:.list-sitemap}
 * [Program Detail][exchange/detail]
 * [Application][exchange/application]
-* [Student Activities][exchange/activities]
+* [Student Activity][exchange/activity]
 * [Student Voice][exchange/voice]
 
 {:.sitemap}
@@ -38,7 +38,7 @@ sort: 3
 [exchange]: {{ '/exchange/' | relative_url }}
 [exchange/detail]: {{ '/exchange/detail/' | relative_url }}
 [exchange/application]: {{ '/exchange/application/' | relative_url }}
-[exchange/activities]: {{ '/exchange/activities/' | relative_url }}
+[exchange/activity]: {{ '/exchange/activity/' | relative_url }}
 [exchange/voice]: {{ '/exchange/voice/' | relative_url }}
 
 [studentlife]: {{ '/studentlife/' | relative_url }}

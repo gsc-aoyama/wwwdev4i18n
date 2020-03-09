@@ -1,7 +1,7 @@
 ---
 layout: page_exchange
-title: Student Activities
-permalink: /exchange/activities/
+title: Student Activity
+permalink: /exchange/activity/
 category: exchange
 sort: 4
 ---
